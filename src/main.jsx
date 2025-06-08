@@ -1,9 +1,9 @@
-import { ClerkProvider } from '@clerk/clerk-react'
-import { dark } from '@clerk/themes'
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { ClerkProvider } from '@clerk/clerk-react';
+import { dark } from '@clerk/themes';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import './App.css'; // Use App.css for global styles
-import App from './App.jsx'
+import App from './App.jsx';
 
 //  Publishable Key
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
@@ -19,7 +19,7 @@ createRoot(document.getElementById('root')).render(
         baseTheme: dark,
       }}
     >
-      <App />
+        <App />
     </ClerkProvider>
   </StrictMode>,
 )
