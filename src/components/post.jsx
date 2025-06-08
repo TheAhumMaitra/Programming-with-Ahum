@@ -15,14 +15,14 @@ export default function Post() {
   }}
 >
   <CardContent>
-    <Typography variant="h3" gutterBottom>
+    <Typography sx={{textDecoration:'underline'}} variant="h3" gutterBottom>
       This is a post title
     </Typography>
     <Typography variant="body1">
       This is post's content...... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex dolor placeat aut ipsa nemo delectus id. Corporis explicabo, eaque necessitatibus a assumenda dolore saepe iure odio hic rerum ea soluta! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aliquam tenetur enim dolor quod sint soluta sed blanditiis laboriosam accusantium pariatur reiciendis explicabo ad minus quia iure, impedit alias nihil!  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat magni sunt aliquid velit odit voluptate molestias at, deserunt harum dolores illum, perspiciatis quibusdam! Minus, laboriosam? Voluptas excepturi vel consequuntur expedita!
     </Typography>
     <Button sx={{marginTop:4, p:1, backgroundColor:'purple','&:hover': {
-      backgroundColor: 'darkviolet', // 👈 new color on hover
+      backgroundColor: 'darkviolet',
     },}} variant="contained">Read More!</Button>
   </CardContent>
 </Card>
